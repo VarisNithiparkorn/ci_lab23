@@ -1,8 +1,8 @@
 name:CI Lab23
-on:
-  push:
-    branches:
-      - main
+  on:
+    push:
+      branches:
+        - main
 jobs:
   build-and-test:
     run-on:ubuntu-latest
